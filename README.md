@@ -5,13 +5,21 @@ Project Introduction
 It is often that the data we retrieve have imbalanced label and we are asked to make classification. These scenarios are troublesome since not only the models we usally use bring poor result, but also the evaluation metric we often used, accuracy, is not adequate for imbalanced data sets due to the impact of the minority class. This project aims to demonstrate some techniques used to combat these situations, such as resampling or cluster before predicting, as well as using PR (Precision-Recall) curve to evaluate model. The approaches for the project are :
 
 Randomly split the dataset into train, validation, and test set.
+
 Do basic EDA and feature engineering.
+
 Predict and evaluate with validation set.
+
 Resample the dataset.
+
 Train on resampled train set then predict and evaluate with validation set.
+
 Try other different models.
+
 Compare the difference between the predictions and choose the best model.
+
 Find the optimised threshold of the chosen model.
+
 Predict on test set to report final result.
 
 Data Source: https://www.kaggle.com/mlg-ulb/creditcardfraud
