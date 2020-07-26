@@ -1,19 +1,19 @@
-# CreditCardFraudDetection
+# Credit Card Fraud Detection
 
 ## Project Introduction
 
 It is often that the data we retrieve have imbalanced label and we are asked to make classification. These scenarios are troublesome since not only the models we usally use bring poor result, but also the evaluation metric we often used, accuracy, is not adequate for imbalanced data sets due to the impact of the minority class. This project aims to demonstrate some techniques used to combat these situations, such as resampling or cluster before predicting, as well as using PR (Precision-Recall) curve to evaluate model. The approaches for the project are :
 
-*Checking for missing values
-*Checking class imbalance
-*Distribution of variable ‘Time’ by class
-*Distribution of variable ‘Amount’ by class
-*Correlation of anonymised variables and ‘Amount’
-*Split data into train and test sets
-*create different versions of the training set as per sampling technique
-*apply various sampling techniques to the data and see the performance on the test set
-*test different models using the up sampling technique as that has given the highest auc score(logistic regression (GLM),logistic regression (GLM),random forest (RF))
-*With an auc score of 0.974 the XGBOOST model has performed the best 
+Checking for missing values
+Checking class imbalance
+Distribution of variable ‘Time’ by class
+Distribution of variable ‘Amount’ by class
+Correlation of anonymised variables and ‘Amount’
+Split data into train and test sets
+create different versions of the training set as per sampling technique
+apply various sampling techniques to the data and see the performance on the test set
+test different models using the up sampling technique as that has given the highest auc score(logistic regression (GLM),logistic regression (GLM),random forest (RF))
+With an auc score of 0.974 the XGBOOST model has performed the best 
 
 Data Source: https://www.kaggle.com/mlg-ulb/creditcardfraud
 It is a CSV file, contains 31 features, the last feature is used to classify the transaction whether it is a fraud or not.
@@ -26,9 +26,9 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
 
-The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection.
 
-Flow of Project
+
+
 
 
 
