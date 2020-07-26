@@ -3,7 +3,8 @@
 ## Project Introduction
 
 It is often that the data we retrieve have imbalanced label and we are asked to make classification. These scenarios are troublesome since not only the models we usally use bring poor result, but also the evaluation metric we often used, accuracy, is not adequate for imbalanced data sets due to the impact of the minority class. This project aims to demonstrate some techniques used to combat these situations, such as resampling or cluster before predicting, as well as using PR (Precision-Recall) curve to evaluate model. The approaches for the project are :
-Checking for missing values
+
+⋅⋅1.Checking for missing values
 Checking class imbalance
 Distribution of variable ‘Time’ by class
 Distribution of variable ‘Amount’ by class
